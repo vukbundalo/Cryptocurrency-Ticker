@@ -3,13 +3,14 @@ description: A new Flutter application.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.2.2 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
   cupertino_icons: ^0.1.2
+  http: ^0.12.1
 
 dev_dependencies:
   flutter_test:
@@ -18,3 +19,7 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
+  assets:
+    - images/BTC.png
+    - images/ETH.png
+    - images/LTC.png
